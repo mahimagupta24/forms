@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML form</h1>
+    <form>
+    <label for="username">Type your name</label>
+    <input type="text"id="username"required></input><br><br>
+    <label for="email">Type your email</label>
+    <input type="email"id="email"required></input><br><br>
+    <label for="password">Type your password</label>
+    <input type="password"id="password"name="password"required></input><br><br>
+    <p><b>select your age:</b></p>
+    <input type="radio"id="age1"value="0-25"name="age">
+    <label for="age1">0-25</label>
+    <input type="radio"id="age2"value="25-60"name="age">
+    <label for="age2">25-60</label>
+    <input type="radio"id="age3"value=">60"name="age">
+    <label for="age3">>60</label>
+<br><br>
+<label for="questions"><b>Security questions</b></label>
+<select name="question"id="question">
+    <option value="q1">What is your favourite color?</option>
+    <option value="q2">What is your favourite security question</option>
+</select>
+<br><br>
+<label for="answer"><b>Security question answers</b></label>
+<input type="text"id="answer"></input>
+<br><br>
+<label for="bio">YouR BiO</label><br>
+<textarea name="bio" id="bio" cols="30" rows="10"placeholder="write your bio"></textarea>
+<br><br>
+<label for="submit"value="submit form"></label>
+<input type="submit"id="submit"></input>
+</form>  
+    
+</body>
+</html>
